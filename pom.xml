@@ -66,4 +66,17 @@
       </plugin>
     </plugins>
   </build>
+  
+  <distributionManagement>
+    <repository>
+        <id>comopatraoDevOps</id>
+        <url>https://pkgs.dev.azure.com/comopatraoDevOps/_packaging/comopatraoDevOps/maven/v1</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </distributionManagement>
 </project>
